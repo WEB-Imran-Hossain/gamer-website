@@ -96,3 +96,55 @@ header{
 /* navbar end here */
 
 /* banner start here */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.title-heading-one{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: var(--semibold);
+    text-transform: uppercase;
+}
+
+.title-heading-two{
+    color: var(--primary-color);
+    font-size: 95px;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+}
+
+.description-item{
+    font-size: 20px;
+    font-weight: var(--medium-font);
+    text-transform: lowercase;
+    list-style-type: none;
+    margin-top: 10px;
+    text-align: start;
+}
+
+.banner-btn{
+    margin-top: 15px;
+}
+.btn-one{
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background-color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.btn-two{
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background-color: var(--secondary-color);
+}
