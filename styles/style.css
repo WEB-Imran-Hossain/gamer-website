@@ -38,7 +38,6 @@ a{
 header{
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgb(0, 0, 0, 0.05);
-    height: 10vh;
 
 }
 .navbar-container{
@@ -99,9 +98,10 @@ header{
 .banner-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 1400px;
-    margin: 0 auto;
+    justify-content: space-around;
+    background-image: url(../images/Group\ 14.png);
+    background-position: bottom top, 100px center;
+    background-repeat: no-repeat;
 }
 
 .title-heading-one{
@@ -147,4 +147,43 @@ header{
     border: none;
     border-radius: 48px;
     background-color: var(--secondary-color);
+}
+
+/* online games start here */
+main{
+    margin-top: 130px;
+}
+
+.online-games-heading-container{
+    text-align: center;
+}
+
+.online-games-heading{
+    font-size: 48px;
+    font-weight: var(--bold);
+}
+
+.online-games-heading-description{
+    font-size: 18px;
+    font-weight: var(--normal-font);
+    line-height: 30px;
+}
+
+.online-games-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.online-games-content{
+    width: 342px;
+    height: 400px;
+}
+
+.box-description{
+    font-size: 20px;
+    font-weight: var(--medium-font);
+    line-height: 30px;
 }
