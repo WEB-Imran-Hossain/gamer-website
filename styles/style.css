@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+/* CSS variables */
+:root{
+    --normal-font: 400;
+    --medium-font:500;
+    --semibold: 600;
+    --bold:700;
+    --primary-color: #FF42A5;
+    --secondary-color: #4EC5F7;
+    --transition: all 0.3s;
+}
+
+/* Smooth scroll effect */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* navbar start here */
+header{
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgb(0, 0, 0, 0.05);
+    height: 10vh;
+
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo-container img{
+    width: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.logo-title{
+    font-size: 35px;
+    font-weight: var(--bold);
+    cursor: pointer;
+}
+
+.text-design{
+    color: #FF42A5;
+}
+
+.menu-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.menu-item{
+    font-size: 18px;
+    font-weight: var(--medium-font);
+}
+
+.menu-icon{
+    background-color: rgb(11, 2, 35, 0.10);
+    text-align: center;
+    padding: 15px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* navbar end here */
+
+/* banner start here */
