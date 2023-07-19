@@ -20,9 +20,6 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
     font-family: "Work Sans", sans-serif;
 }
 
@@ -99,6 +96,12 @@ a{
     background-repeat: no-repeat;
 }
 
+.title-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 .title-heading-one{
     color: #0B0223;
     font-size: 48px;
@@ -119,7 +122,6 @@ a{
     text-transform: lowercase;
     list-style-type: none;
     margin-top: 10px;
-    text-align: start;
 }
 
 .banner-btn{
