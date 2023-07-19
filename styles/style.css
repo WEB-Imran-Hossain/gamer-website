@@ -135,6 +135,7 @@ a{
     margin-right: 10px;
     color: #FFF;
     font-weight: var(--bold);
+    cursor: pointer;
 }
 
 .btn-two{
@@ -146,6 +147,7 @@ a{
     background-color: var(--secondary-color);
     color: #FFF;
     font-weight: var(--bold);
+    cursor: pointer;
 }
 
 /* online games start here */
@@ -191,6 +193,7 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 250px;
     
 }
 
@@ -219,6 +222,14 @@ a{
     position: relative;
 }
 
+/* icon content start */
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 /* footer start here */
 footer{
     width: 100%;
@@ -238,19 +249,21 @@ footer{
 }
 
 .footer-menu-container{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: var(--semibold);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    cursor: pointer;
 }
 
 .condition{
     text-align: center;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.60);
+    cursor: pointer;
 }
 
 .condition-item{
@@ -270,6 +283,7 @@ footer{
     align-items: center;
     text-align: center;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .social-link{
