@@ -99,7 +99,7 @@ a{
 .title-container{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .title-heading-one{
@@ -110,7 +110,7 @@ a{
 }
 
 .title-heading-two{
-    color: var(--primary-color);
+    color: #f948b2;
     font-size: 95px;
     font-weight: var(--bold);
     text-transform: uppercase;
@@ -154,7 +154,7 @@ a{
 }
 
 .img-container{
-    margin-right: 5rem;
+    padding: 5rem;
 }
 
 /* online games start here */
