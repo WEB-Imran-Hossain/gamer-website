@@ -192,23 +192,26 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
         grid-column: auto;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
     }
 
     .icon-box{
-        width: 175px;
+        width: 130px;
         gap: 3px;
-        height: 58px;
-        justify-content: center;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
     }
 
     .icon-img{
         margin: 0;
-        width: 35px;
+        width: 25px;
     }
 
     .icon-description{
-        font-size: .7rem;
+        font-size: .5rem;
     }
 
     .online-games-heading-container{
