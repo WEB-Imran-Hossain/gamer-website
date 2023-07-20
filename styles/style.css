@@ -105,7 +105,7 @@ a{
 .title-container{
     display: flex;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 0px 60px 0px 60px;
 }
 
 .title-heading-one{
@@ -161,6 +161,9 @@ a{
 
 .img-container{
     padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* online games start here */
