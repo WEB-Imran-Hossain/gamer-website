@@ -186,6 +186,53 @@ a{
 .online-games-content{
     width: 342px;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.box3{
+    position: relative;
+    overflow: hidden;
+}
+
+.box3 img{
+    max-width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 342px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(32, 32, 32, 0.7);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.box3:hover .overlay{
+    opacity: 1;
+    border-radius: 16px;
+}
+
+.text{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: var(--semibold);
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .box-description{
@@ -193,6 +240,10 @@ a{
     font-weight: var(--medium-font);
     line-height: 30px;
     margin-top: 24px;
+}
+
+.youtube-icon{
+    font-size: 40px;
 }
 
 /* play instantly start here */
