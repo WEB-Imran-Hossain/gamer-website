@@ -14,7 +14,6 @@
 
     .banner-container{
         flex-direction: column-reverse;
-        background-image: none;
         margin: 0 auto;
         align-items: center;
         justify-content: center;
@@ -34,7 +33,6 @@
         flex-direction: column;
         justify-content:flex-start;
         align-items: start;
-
     }
 
     .banner-btn{
@@ -91,13 +89,17 @@
     .online-games-heading{
         font-size: 3rem;
     }
-
+    
     .online-games-heading-description{
         font-size: 1rem;
     }
 
-    .online-games-container{
-        gap: 120px;
+    .online-games-content{
+        margin: 0 15px;
+    }
+
+    .box-description{
+        margin: 15px;
     }
 }
 
