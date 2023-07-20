@@ -183,8 +183,36 @@
         flex-direction: column;
     }
 
-    .play-instantly-container{
-        flex-direction: column;
+    .play-games-container{
+        flex-direction: column-reverse;
+        padding: 5px;
+    }
+
+    .play-games-heading{
+        text-align: center;
+    }
+
+    .play-games-title{
+        margin-bottom: 40px;
+    }
+
+    .play-games-description{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .play-games-img-content-one{
+        max-width: 25rem;
+        max-height: 50rem;
+        position: relative;
+    }
+
+    .play-games-img-content-two{
+        max-width: 14rem;
+        max-height: 40rem;
+        position: absolute;
+        top: 720%;
+        left: 70%;
     }
 
     .icon-container{

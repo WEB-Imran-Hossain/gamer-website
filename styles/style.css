@@ -253,8 +253,8 @@ li{
     font-size: 40px;
 }
 
-/* play instantly start here */
-.play-instantly-container{
+/* play games start here */
+.play-games-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -263,26 +263,26 @@ li{
     
 }
 
-.play-instantly-title{
+.play-games-title{
     font-size: 48px;
     font-weight: var(--bold);
     line-height: 60px;
 }
 
-.play-instantly-description{
+.play-games-description{
     font-size: 18px;
     font-weight: var(--normal-font);
     line-height: 30px;
     margin-right: 15rem;
 }
 
-.play-instantly-img-content-one{
+.play-games-img-content-one{
     max-width: 30rem;
     max-height: 50rem;
     border-radius: 8px;
 }
 
-.play-instantly-img-content-two{
+.play-games-img-content-two{
     max-width: 15rem;
     max-height: 50rem;
     border-radius: 8px;
