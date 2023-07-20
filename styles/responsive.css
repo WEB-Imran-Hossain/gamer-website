@@ -33,6 +33,7 @@
         flex-direction: column;
         justify-content:flex-start;
         align-items: start;
+        margin-top: 50px;
     }
 
     .banner-btn{
